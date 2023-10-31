@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22154" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22130"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="lesson_1" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jnx-iq-qeG" userLabel="pinkView">
+                                <rect key="frame" x="16" y="98.000000000000028" width="361" height="327.66666666666674"/>
+                                <color key="backgroundColor" red="1" green="0.71364930859999998" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Q4w-we-8xb" userLabel="blueView">
+                                <rect key="frame" x="16" y="451.66666666666674" width="361" height="327.33333333333326"/>
+                                <color key="backgroundColor" red="0.52465242479999996" green="0.89000000000000001" blue="0.88365919260000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Q4w-we-8xb" firstAttribute="top" secondItem="jnx-iq-qeG" secondAttribute="bottom" constant="26" id="Ff2-OK-qz8"/>
+                            <constraint firstItem="Q4w-we-8xb" firstAttribute="width" secondItem="jnx-iq-qeG" secondAttribute="width" id="KCw-Wf-YSM"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="jnx-iq-qeG" secondAttribute="trailing" constant="16" id="WXP-7q-gR8"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Q4w-we-8xb" secondAttribute="trailing" constant="16" id="hlF-Dh-nSU"/>
+                            <constraint firstItem="jnx-iq-qeG" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="kf8-a8-rTb"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Q4w-we-8xb" secondAttribute="bottom" constant="39" id="mDD-K4-kCy"/>
+                            <constraint firstItem="Q4w-we-8xb" firstAttribute="height" secondItem="jnx-iq-qeG" secondAttribute="height" id="nsf-oz-yQm"/>
+                            <constraint firstItem="jnx-iq-qeG" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="39" id="tt0-93-n8a"/>
+                            <constraint firstItem="Q4w-we-8xb" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="zhA-cW-jsS"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-92.36641221374046" y="3.5211267605633805"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
