@@ -33,9 +33,9 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="jnx-iq-qeG" secondAttribute="trailing" constant="16" id="WXP-7q-gR8"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Q4w-we-8xb" secondAttribute="trailing" constant="16" id="hlF-Dh-nSU"/>
                             <constraint firstItem="jnx-iq-qeG" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="kf8-a8-rTb"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Q4w-we-8xb" secondAttribute="bottom" constant="39" id="mDD-K4-kCy"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Q4w-we-8xb" secondAttribute="bottom" constant="39" id="mDD-K4-kCy" userLabel="Safe Area.bottom = blueView.bottom + 35"/>
                             <constraint firstItem="Q4w-we-8xb" firstAttribute="height" secondItem="jnx-iq-qeG" secondAttribute="height" id="nsf-oz-yQm"/>
-                            <constraint firstItem="jnx-iq-qeG" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="39" id="tt0-93-n8a"/>
+                            <constraint firstItem="jnx-iq-qeG" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="39" id="tt0-93-n8a" userLabel="pinkView.top = Safe Area.top + 35"/>
                             <constraint firstItem="Q4w-we-8xb" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="zhA-cW-jsS"/>
                         </constraints>
                     </view>
